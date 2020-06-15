@@ -1,0 +1,31 @@
+.pill {
+  padding: 15px 20px;
+  width: 200px;
+}
+
+.pill-left {
+  border-radius: 500px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.pill-right {
+  border-radius: 500px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.process-icon {
+  margin-bottom: 20px;
+}
+
+.landlord-heading {
+  font-size: 24px;
+  color: #db2d8e;
+}
+
+.wave {
+  height: 5rem;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MjAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA5MjBweCA4MCI+PHBhdGggZD0iTTAgMTMuOVMxNzkuNSA0OS4zIDI5NiA0OS4zQzM5Ny41IDQ5LjMgNTI1LjggMCA3MjAgMHMzNzQuOSA0OS4zIDQ1OCA0OS4zYzExMyAwIDI2Mi0zNS41IDI2Mi0zNS41VjgwLjRIMFoiIGZpbGw9IiNmOGY5ZmEiLz48L3N2Zz4=);
+  transform: rotate(180deg);
+}
