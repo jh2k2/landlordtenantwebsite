@@ -13,6 +13,7 @@ export class ForTlComponent implements OnInit {
   ngOnInit(): void {
     $('.landlord-info-page').hide();
     $('.landlord-btn').hide();
+    $('.for-tl-testimonial2').hide();
 
     $('.tenant__btn').click(function(e) {
       console.log('tenant-clicked');
@@ -21,8 +22,10 @@ export class ForTlComponent implements OnInit {
       $('.landlord__btn').removeClass('active');
       $('.tenant-info-page').show();
       $('.tenant-btn').show();
+      $('.for-tl-testimonial').show();
       $('.landlord-info-page').hide();
       $('.landlord-btn').hide()
+      $('.for-tl-testimonial2').hide();
     });
 
     $('.landlord__btn').click(function(e) {
@@ -32,8 +35,10 @@ export class ForTlComponent implements OnInit {
       $('.tenant__btn').removeClass('active');
       $('.landlord-info-page').show();
       $('.landlord-btn').show();
+      $('.for-tl-testimonial2').show();
       $('.tenant-info-page').hide();
       $('.tenant-btn').hide();
+      $('.for-tl-testimonial').hide();
     });
 
   }
