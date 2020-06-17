@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
 import { BotFooterComponent } from './bot-footer/bot-footer.component';
 import { HeroComponent } from './hero/hero.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import { LocationComponent } from './location/location.component';
 import { ForTlComponent } from './for-tl/for-tl.component';
 import { TextVariationComponent } from './text-variation/text-variation.component';
 
@@ -16,7 +16,7 @@ import { TextVariationComponent } from './text-variation/text-variation.componen
     TopNavBarComponent,
     BotFooterComponent,
     HeroComponent,
-    GalleryComponent,
+    LocationComponent,
     ForTlComponent,
     TextVariationComponent,
   ],
